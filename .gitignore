@@ -1,1 +1,8 @@
 *.o
+config.status
+config.h
+config.log
+ez-ipupdate
+stamp-h
+config.cache
+Makefile
