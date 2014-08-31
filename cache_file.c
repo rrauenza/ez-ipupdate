@@ -43,7 +43,6 @@
 #include <cache_file.h>
 
 #if HAVE_STRERROR
-extern int errno;
 #  define error_string strerror(errno)
 #elif HAVE_SYS_ERRLIST
 extern const char *const sys_errlist[];
